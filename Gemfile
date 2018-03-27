@@ -1,15 +1,18 @@
 source 'https://rubygems.org'
 
-gem 'rails',        '5.1.5'
-gem 'puma',         '3.11.3'
-gem 'sass-rails',   '5.0.7'
-gem 'uglifier',     '4.1.8'
-gem 'coffee-rails', '4.2.2'
-gem 'turbolinks',   '5.1.0'
-gem 'jquery-rails', '4.3.1'
-gem 'jbuilder',     '2.7.0'
-gem 'wdm',          '0.1.1'
-gem 'win32console', '1.3.2'
+gem 'rails',                   '5.1.5'
+gem 'puma',                    '3.11.3'
+gem 'sass-rails',              '5.0.7'
+gem 'uglifier',                '4.1.8'
+gem 'coffee-rails',            '4.2.2'
+gem 'turbolinks',              '5.1.0'
+gem 'jquery-rails',            '4.3.1'
+gem 'jbuilder',                '2.7.0'
+gem 'wdm',                     '0.1.1'
+gem 'win32console',            '1.3.2'
+gem 'bootstrap-sass',          '3.2.0.2'
+# gem 'bootstrap-will_paginate', '1.0.0' 
+# gem 'execjs',                  '2.7.0'
 
 group :development, :test do
   gem 'byebug',  '10.0.1', platforms: :mri
