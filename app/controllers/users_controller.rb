@@ -7,6 +7,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     redirect_to root_url and return unless !@user.nil?
+    #暂时不知道这里最后那个代码对不对
     # debugger
   end
 
