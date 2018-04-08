@@ -12,11 +12,18 @@ w:
   password_digest: <%= User.digest('password') %>
   activated: true
   activated_at: <%= Time.zone.now %>
+
+wind:
+  name: wind
+  email: 1442983474@qq.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
   
 
-a:
-  name: a
-  email: 1a@qq.com
+trh:
+  name: trh
+  email: 121212@qq.com
   password_digest: <%= User.digest('password') %>
   activated: true
   activated_at: <%= Time.zone.now %>
